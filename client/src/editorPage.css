@@ -1,0 +1,36 @@
+body{
+    background: white;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255, 106, 0);
+}
+.editorpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.editorpage > textarea{
+    width: 80vw;
+    min-height: 80vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 4vh;
+    padding: 20px;
+}
+.editorpage > a > button{
+    width: 14vw;
+    height: 10vh;
+    border: none;
+    margin-top: 5vh;
+    background-image: linear-gradient(to left, rgb(255, 0, 43), rgb(165, 35, 35));
+    border-radius: 20px;
+    font-size: 5vh;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.editorpage > a>button:hover{
+    border: 0px 0px 2px 0px black;
+}

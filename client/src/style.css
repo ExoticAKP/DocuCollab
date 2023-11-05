@@ -1,0 +1,35 @@
+.entry{
+    width: 100vw;
+    height: 100vh;
+    margin: -9px;
+    padding: 0px;
+    background-image: linear-gradient(to left,rgb(255, 196, 0),rgb(202, 27, 27));
+}
+.entry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.entry > h1{
+    margin-top: 10vh;
+    font-size: 20vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+.entry > a > button{
+    width: 25vw;
+    height: 10vh;
+    border: none;
+    background-image: linear-gradient(to left, rgb(255, 0, 43), rgb(165, 35, 35));
+    border-radius: 20px;
+    font-size: 5vh;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.entry > a>button:hover{
+    border: 0px 0px 2px 0px black;
+}
+
+
